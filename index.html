@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Reservation Request</h2>
+    <fieldset>
+        <legend >General Information</legend>
+        <label for="">Arrival date: </label>
+        <input type="date">
+        <label for="">Arrival date is invalid.</label>
+        <br>
+        <label for="">Nights:</label>
+        <input type="text">
+        <label for="">Nights must be a number.</label>
+        <br>
+        <label for="">Adults:</label>
+        <input type="number">
+        <br>
+        <label for="">Children:</label>
+        <input type="number">
+        
+    </fieldset>
+    <fieldset>
+        <legend>Preferences</legend>
+        <label for="">Room type: </label>
+        <input type="radio">Standart
+        <input type="radio">Business
+        <input type="radio">Suite
+        <br>
+        <label for="">Bed type: </label>
+        <input type="radio">King
+        <input type="radio">Double Double
+        <br>
+        <input type="checkbox">Smoking
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="">Name: </label>
+        <input type="text">
+        <label for="">Name is required.</label>
+        <br>
+        <label for="">Email: </label>
+        <input type="email">
+        <label for="">Email address is invalid.</label>
+        <br>
+        <label for="">Phone: </label>
+        <input type="phone">
+        <label for="">Phone number is invalid</label>
+    </fieldset>
+    <button>Submit Reservation</button>
+    <button>Clear</button>
+</body>
+</html>
